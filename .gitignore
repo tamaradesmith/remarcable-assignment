@@ -37,3 +37,12 @@ Thumbs.db
 # Pipenv / Poetry (optional)
 Pipfile.lock
 poetry.lock
+
+app/.DS_Store
+app/.env
+app/node_modules/
+
+# React Router
+app/.react-router/
+app/build/
+
