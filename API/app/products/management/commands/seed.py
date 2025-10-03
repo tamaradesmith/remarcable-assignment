@@ -4,7 +4,7 @@ from app.products.models import Category, Product, Tag
 class Command(BaseCommand):
   help = "Seed categories, tags and products into the database"
   
-  def handle(self):
+  def handle(self, *args, **options):
     categories = ["Cat Food", "Cat Treats", "Cat Toys", "Cat Beds", "Cat Accessories", "Cat Health"]
     tags = ["Organic", "Premium", "Cheap", "Indoor", "Outdoor", "Kitten", "Adult", "Luxury", "Toy", "Food"]
     products = [
